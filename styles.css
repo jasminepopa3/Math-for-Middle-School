@@ -1,0 +1,78 @@
+/* Resetare stiluri */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #192221;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    background-image: url('fotbal2.png'); /* Înlocuiește cu link-ul tău */
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 50%; /* Face containerul rotund */
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 104px;
+    height: 104.5px;
+    transform: translate(-5px, 4.9px);
+}
+
+
+.circular-button {
+    background-image: url('fotbal3.png'); /* Înlocuiește cu link-ul tău */
+    background-size: cover; /* Asigură-te că imaginea acoperă complet butonul */
+    background-position: center; /* Centrarea imaginii */
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 105.9px;
+    height: 105.9px;
+    font-size: 1rem;
+    transform: translate(-16.3px, -16.7px);
+    cursor: pointer;
+}
+
+.circular-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    background-color: #192221;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .quiz-container {
+        padding: 1rem;
+    }
+}
+

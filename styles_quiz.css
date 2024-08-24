@@ -1,0 +1,109 @@
+/* Resetare stiluri */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #192221;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    background-image: url('fotbal2.png'); /* Înlocuiește cu link-ul tău */
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 445px;
+    width: 100%;
+    height: auto;
+}
+
+.question {
+    margin-bottom: 1rem;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #192221;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a4948;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    margin-top: 1rem;
+}
+
+.progress-bar-fill {
+    height: 20px;
+    background-color: #192221;
+    width: 0;
+    transition: width 0.5s;
+}
+
+.question img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.centered-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: #192221;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .quiz-container {
+        padding: 1rem;
+    }
+}
