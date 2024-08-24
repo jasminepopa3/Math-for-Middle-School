@@ -1,0 +1,10 @@
+*.php linguist-language=PHP
+
+*.css linguist-language=CSS
+
+*.js linguist-language=JavaScript
+*.html linguist-language=HTML
+
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
