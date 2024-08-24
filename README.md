@@ -5,9 +5,9 @@
 ---
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 0 auto; max-width: 80%;">
-    <img src="app_math1.png" alt="MathForMiddleSchool" height="600" style="width: 33%;">
-    <img src="app_math2.png" alt="MathForMiddleSchool" height="600" style="width: 33%;">
-    <img src="app_math3.png" alt="MathForMiddleSchool" height="600" style="width: 33%;">
+    <img src="app_math1.png" alt="MathForMiddleSchool" height="450" style="width: 25%;">
+    <img src="app_math2.png" alt="MathForMiddleSchool" height="450" style="width: 25%;">
+    <img src="app_math3.png" alt="MathForMiddleSchool" height="450" style="width: 25%;">
 </div>
 
 
